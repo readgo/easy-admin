@@ -17,8 +17,9 @@
 ```bash
 npm create vue@latest
 ```
-&emsp;&emsp;根据提示输出项目名称(比如easy-admin),选择需要安装的模块，我选择的是router和ESLint<br>
+&emsp;&emsp;根据提示输出项目名称(比如easy-admin),选择需要安装的模块，我选择的是Router和ESLint<br>
 ![创建](./image/create.png)
+<br>
 &emsp;&emsp;然后等待项目构建完成，可执行以下命令：<br>
 &emsp;&emsp;进入项目目录<br>
 ```bash
@@ -33,9 +34,12 @@ npm create vue@latest
   npm run dev
 ```
 ![运行调试](./image/run-dev.png)
+<br>
 &emsp;&emsp;这时候安装CTL键不放，点击窗口上的网址就能打开刚刚创建的网站了，如果无法打开也可以直接输出o然后按钮回车<br>
 ![打开网页](./image/open-web.png)
-&emsp;&emsp;现在我们已经看到努力的成果了，是不是很方便！不过先别急，我们返回命令窗口，上面有一行“ press h + enter to show help”意思是输入h+enter显示帮助信息，输入后会得到以下的信息，这对我们调试很有帮助<br>
+<br>
+&emsp;&emsp;现在我们已经看到努力的成果了，是不是很方便！不过先别急，我们返回命令窗口，上面有一行“ press h + enter to show help”意思是输入h+enter显示帮助信息，输入后会得到以下的信息，这对我们调试很有帮助
+<br>
 ![帮助信息](./image/help.png)
 &emsp;&emsp;接下来我们来翻译一下这几个快捷键
 - r + enter 重启服务器，相当于刷新缓存
@@ -43,3 +47,8 @@ npm create vue@latest
 - o + enter 在浏览器中打开网址
 - c + enter 清屏，清空控制台
 - q + enter 退出，注意！如果直接关闭命令窗口，服务是不会停止的！
+## 克隆项目
+&emsp;&emsp;如果你想省去前面的步骤，并且跟我一样，只需Router和ESLint，可以通过git快速克隆项目<br>
+```bash
+git clone https://github.com/readgo/easy-admin.git
+```
