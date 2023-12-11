@@ -50,5 +50,5 @@ npm create vue@latest
 ## 克隆项目
 &emsp;&emsp;如果你想省去前面的步骤，并且跟我一样，只需Router和ESLint，可以通过git快速克隆项目<br>
 ```bash
-git clone https://github.com/readgo/easy-admin.git
+git clone -b vue3 https://github.com/readgo/easy-admin.git
 ```
