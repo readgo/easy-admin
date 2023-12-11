@@ -52,3 +52,13 @@ npm create vue@latest
 ```bash
 git clone -b vue3 https://github.com/readgo/easy-admin.git
 ```
+&emsp;&emsp;克隆结束后在目录中打开命令提示符或者PowerShell，输入以下命令<br>
+```bash
+npm install
+```
+![运行调试](./image/clone.png)
+<br>
+&emsp;&emsp;等待安装完成，然后运行调试<br>
+```bash
+npm run dev
+```
